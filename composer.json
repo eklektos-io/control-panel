@@ -1,5 +1,6 @@
 {
     "name": "eklektos-io/control-panel",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "EklektosIo\\ControlPanel\\": "src"

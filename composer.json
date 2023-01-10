@@ -1,0 +1,19 @@
+{
+    "name": "eklektos-io/control-panel",
+    "autoload": {
+        "psr-4": {
+            "EklektosIo\\ControlPanel\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Control Panel",
+            "description": "Control Panel addon"
+        },
+        "laravel": {
+            "providers": [
+                "EklektosIo\\ControlPanel\\ServiceProvider"
+            ]
+        }
+    }
+}
